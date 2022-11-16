@@ -75,6 +75,7 @@ function Snowman({
 
   return (
       <div className="Snowman">
+        <p>Number Wrong: {nWrong}</p>
         <img src={(images)[nWrong]} alt={nWrong} />
         <p className="Snowman-word">{guessedWord()}</p>
         <p>{generateButtons()}</p>
